@@ -1,0 +1,7 @@
+/* Generated automatically. */
+static const char configuration_arguments[] = "./configure --prefix=/home/justiceliang/home_workspace/imx6ull-sdk/tools/gcc-11.3-bootlin --sysconfdir=/home/justiceliang/home_workspace/imx6ull-sdk/tools/gcc-11.3-bootlin/etc --enable-static --target=arm-buildroot-linux-gnueabihf --with-sysroot=/home/justiceliang/home_workspace/imx6ull-sdk/tools/gcc-11.3-bootlin/arm-buildroot-linux-gnueabihf/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --enable-plugins --enable-lto --with-gmp=/home/justiceliang/home_workspace/imx6ull-sdk/tools/gcc-11.3-bootlin --with-mpc=/home/justiceliang/home_workspace/imx6ull-sdk/tools/gcc-11.3-bootlin --with-mpfr=/home/justiceliang/home_workspace/imx6ull-sdk/tools/gcc-11.3-bootlin --with-pkgversion='Buildroot 2021.11-4428-g6b6741b' --with-bugurl=http://bugs.buildroot.net/ --without-zstd --disable-libquadmath --disable-libquadmath-support --enable-tls --enable-threads --without-isl --without-cloog --with-abi=aapcs-linux --with-cpu=cortex-a9 --with-fpu=vfpv3-d16 --with-float=hard --with-mode=arm --enable-languages=c,c++,fortran --with-build-time-tools=/home/justiceliang/home_workspace/imx6ull-sdk/tools/gcc-11.3-bootlin/arm-buildroot-linux-gnueabihf/bin --enable-shared --enable-libgomp";
+static const char thread_model[] = "posix";
+
+static const struct {
+  const char *name, *value;
+} configure_default_options[] = { { "abi", "aapcs-linux" }, { "cpu", "cortex-a9" }, { "float", "hard" }, { "mode", "arm" }, { "fpu", "vfpv3-d16" }, { "tls", "gnu" } };

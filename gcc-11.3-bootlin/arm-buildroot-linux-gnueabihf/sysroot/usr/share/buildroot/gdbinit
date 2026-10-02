@@ -1,0 +1,2 @@
+add-auto-load-safe-path /home/justiceliang/home_workspace/imx6ull-sdk/tools/gcc-11.3-bootlin/arm-buildroot-linux-gnueabihf/sysroot
+set sysroot /home/justiceliang/home_workspace/imx6ull-sdk/tools/gcc-11.3-bootlin/arm-buildroot-linux-gnueabihf/sysroot

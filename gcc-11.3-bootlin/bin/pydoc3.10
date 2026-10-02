@@ -1,0 +1,5 @@
+#!/home/justiceliang/home_workspace/imx6ull-sdk/tools/gcc-11.3-bootlin/bin/python3.10
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()
