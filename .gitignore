@@ -1,0 +1,10 @@
+# 41MB 静态二进制不入库；重新编译：
+#   cmake -B flashtool/build-win -DCMAKE_TOOLCHAIN_FILE=<mingw-toolchain.cmake> ...
+#   详见 imx6ull-烧录工具-方案.md §7
+*.exe
+
+# CMake 交叉构建目录
+flashtool/build-*/
+
+# Linux 本地 CMake 构建目录
+flashtool/build/

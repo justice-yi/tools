@@ -1,0 +1,5 @@
+/* Windows 资源：exe 文件图标（资源管理器/任务栏/窗口标题栏）。
+ * configure_file 生成，绝对路径避免 windres 相对路径解析问题。
+ * IDI_ICON1 = 资源 ID 1：PE 中第一个图标，Windows 默认用作 exe 图标，
+ * Qt 的 Windows 平台插件也会拿它做窗口默认图标，无需代码再 setWindowIcon。 */
+IDI_ICON1 ICON "@CMAKE_CURRENT_SOURCE_DIR@/resources/FlashTool.ico"
